@@ -1,0 +1,82 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+header {
+    background-color: #5910E5;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+header .social-links a {
+    color: #C3FF83;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 40px;
+}
+
+h2 {
+    text-align: center;
+    color: #5910E5;
+}
+
+.service {
+    margin: 20px 0;
+}
+
+button {
+    background-color: #C3FF83;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5910E5;
+    color: white;
+}
+
+/* Contact Form */
+form {
+    display: grid;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+input, select, textarea {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+textarea {
+    resize: vertical;
+}
+
+form input[type="submit"] {
+    background-color: #C3FF83;
+    color: black;
+    cursor: pointer;
+}
+
+/* Thank you message */
+.thanks-message {
+    color: #C3FF83;
+    font-size: 1.2em;
+    text-align: center;
+}
