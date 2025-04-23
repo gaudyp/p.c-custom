@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #804000;
+  color: #F3DBC3;
+}
+
+nav {
+  background-color: black;
+  color: #F3DBC3;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  align-items: center;
+}
+
+nav a {
+  color: #F3DBC3;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #F3DBC3;
+  color: #804000;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+.services, .contact {
+  padding: 40px 20px;
+}
+
+.service {
+  margin-bottom: 25px;
+}
+
+.service h4 {
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+input, select, textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+}
+
+button {
+  background-color: #F3DBC3;
+  color: #804000;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+}
+
+#thanks {
+  color: #F3DBC3;
+  text-align: center;
+  margin-top: 20px;
+}
